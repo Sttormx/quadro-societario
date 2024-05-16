@@ -1,0 +1,53 @@
+api_login_check:
+    methods: ['POST']
+    path: /api/login
+
+companie_create:
+    path: /api/company
+    methods: ['POST']
+    controller: 'App\Modules\Companies\Http\Controller::Create'
+
+companie_read:
+    path: /api/company/{id}
+    methods: ['GET']
+    controller: 'App\Modules\Companies\Http\Controller::Read'
+
+companie_read_all:
+    path: /api/companies
+    methods: ['GET']
+    controller: 'App\Modules\Companies\Http\Controller::ReadAll'
+
+companie_delete:
+    path: /api/company/{id}
+    methods: ['DELETE']
+    controller: 'App\Modules\Companies\Http\Controller::Delete'
+
+companie_update:
+    path: /api/company/{id}
+    methods: ['PUT']
+    controller: 'App\Modules\Companies\Http\Controller::Update'
+
+partner_create:
+    path: /api/partner
+    methods: ['POST']
+    controller: 'App\Modules\Partners\Http\Controller::Create'
+
+partner_read:
+    path: /api/partner
+    methods: ['GET']
+    controller: 'App\Modules\Partners\Http\Controller::Read'
+
+partner_read_all:
+    path: /api/partners
+    methods: ['GET']
+    controller: 'App\Modules\Partners\Http\Controller::ReadAll'
+
+partner_delete:
+    path: /api/partner/{id}
+    methods: ['DELETE']
+    controller: 'App\Modules\Partners\Http\Controller::Delete'
+
+partner_update:
+    path: /api/partner/{id}
+    methods: ['PUT']
+    controller: 'App\Modules\Partners\Http\Controller::Update'
