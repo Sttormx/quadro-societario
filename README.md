@@ -1,5 +1,5 @@
 # Quadro Societário
-Repositorio do desafio tecnico da Vox.
+Aplicação desenvolvida em PHP c/**Symfony** que contém um CRUD de empresas e de seu quadro societário.
 
 ## Front End
 Acesse a pasta web
@@ -34,8 +34,3 @@ yes
 ```
 
 O serviço estará disponível na URL http://localhost
-
-## Observações
-- O front end foi implementado utilizando React com Next.js.
-- Não precisa realizar configurações de .env, certificados, chaves ssh. Eu já deixei tudo commitado para facilitar a execução do projeto. Eu NÃO faria isso em um projeto real.
-- Faltou finalizar o CRUD dos sócios no front e uma pequena parte lógica no back. Infelizmente não consegui finalizar tudo a tempo.
